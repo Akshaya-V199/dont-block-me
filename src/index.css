@@ -1,0 +1,193 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fredoka', 'Comic Sans MS', sans-serif;
+}
+
+/* Page background */
+.quiz-bg {
+  min-height: 100vh;
+  background-color: #e2f5fc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 16px;
+}
+
+/* Header Banner Card */
+.banner-card {
+  background: white;
+  width: 100%;
+  max-width: 380px;
+  border-radius: 24px;
+  padding: 24px 16px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.banner-title {
+  color: #ff5b5b;
+  font-size: 2rem;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+.banner-badge {
+  display: inline-block;
+  background-color: #38bdf8;
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 12px;
+  margin-top: 4px;
+}
+
+/* Main Card */
+.quiz-card {
+  background: white;
+  width: 100%;
+  max-width: 380px;
+  border-radius: 28px;
+  padding: 24px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.hero-illustration {
+  margin: 10px 0;
+}
+
+.hero-img {
+  width: 90px;
+  height: 90px;
+}
+
+.main-heading {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #222;
+  margin-top: 8px;
+}
+
+.sub-heading {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 16px;
+}
+
+.highlight-yellow {
+  background-color: #fde047;
+  padding: 2px 8px;
+  border-radius: 6px;
+}
+
+.name-input {
+  width: 100%;
+  padding: 12px 16px;
+  border: 2px solid #e2e8f0;
+  border-radius: 16px;
+  font-size: 0.95rem;
+  text-align: center;
+  outline: none;
+  margin-bottom: 12px;
+}
+
+.name-input:focus {
+  border-color: #38bdf8;
+}
+
+/* Blue Action Button */
+.create-btn {
+  width: 100%;
+  background-color: #00a8ff;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 12px;
+  font-size: 1.1rem;
+  font-weight: 800;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 168, 255, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.create-btn:hover {
+  background-color: #0095e6;
+}
+
+.login-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  color: #666;
+  margin-top: 12px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.back-btn:hover {
+  color: #00a8ff;
+}
+
+.success-screen {
+  padding: 20px 0;
+  text-align: center;
+}
+.input-field {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  outline: none;
+  margin-bottom: 8px;
+}
+
+.input-field:focus {
+  border-color: #38bdf8;
+}
+
+.options-grid {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.select-correct-label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #64748b;
+  margin-bottom: 6px;
+}
+
+.add-btn {
+  width: 100%;
+  background-color: #f1f5f9;
+  color: #334155;
+  border: 1px dashed #cbd5e1;
+  border-radius: 12px;
+  padding: 10px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background-color: #e2e8f0;
+}
